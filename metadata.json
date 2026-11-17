@@ -1,0 +1,11 @@
+{
+  "uuid": "visor-example@taulit.github.io",
+  "name": "Visor: Example",
+  "description": "Requires Visor. Example module that shows how a module for Visor is built.",
+  "shell-version": ["50", "51"],
+  "url": "https://github.com/taulit/visor-module-template",
+  "settings-schema": "org.gnome.shell.extensions.visor-example",
+  "gettext-domain": "visor-example",
+  "version-name": "1.0.0",
+  "visor": { "api": 1, "slot": "dock" }
+}

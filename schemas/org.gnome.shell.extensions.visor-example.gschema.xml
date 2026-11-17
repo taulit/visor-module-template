@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="visor-example">
+  <schema id="org.gnome.shell.extensions.visor-example" path="/org/gnome/shell/extensions/visor-example/">
+    <key name="greeting" type="s">
+      <default>''</default>
+      <summary>Greeting</summary>
+      <description>Text the example module shows. Empty means the default text.</description>
+    </key>
+  </schema>
+</schemalist>

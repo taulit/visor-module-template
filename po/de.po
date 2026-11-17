@@ -1,0 +1,73 @@
+# German translation for the Visor example module.
+# This file is distributed under the same license as the visor-example package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: visor-example\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 11:42+0100\n"
+"PO-Revision-Date: 2026-11-17 11:41+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: build/examples/ahead.js:5 build/examples/ahead.js:26
+#: build/examples/dock.js:21 build/examples/now.js:23 build/prefs.js:42
+msgid "Example"
+msgstr "Beispiel"
+
+#: build/examples/ahead.js:16 build/examples/dock.js:37 build/examples/now.js:9
+msgid "Hello from Visor"
+msgstr "Hallo von Visor"
+
+#: build/examples/ahead.js:21 build/examples/now.js:15
+msgid "Example module"
+msgstr "Beispielmodul"
+
+#: build/examples/ahead.js:27
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: build/examples/dock.js:25
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: build/examples/dock.js:41
+msgid "Clicks"
+msgstr "Klicks"
+
+#: build/examples/dock.js:43
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: build/examples/dock.js:52
+msgid "This view belongs to the example module."
+msgstr "Diese Ansicht gehört zum Beispielmodul."
+
+#: build/examples/now.js:17
+msgid "Dismiss"
+msgstr "Ausblenden"
+
+#: build/prefs.js:28
+msgid "General"
+msgstr "Allgemein"
+
+#: build/prefs.js:35
+msgid "Visor is not installed"
+msgstr "Visor ist nicht installiert"
+
+#: build/prefs.js:36
+msgid "This module needs Visor and does nothing without it."
+msgstr "Dieses Modul braucht Visor und tut ohne Visor nichts."
+
+#: build/prefs.js:38
+msgid "Get Visor"
+msgstr "Visor holen"
+
+#: build/prefs.js:43
+msgid "Greeting"
+msgstr "Gruß"
