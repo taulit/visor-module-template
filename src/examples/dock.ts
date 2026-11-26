@@ -4,6 +4,7 @@
 // A dock module is the place for something the user opens on purpose: a list, a form,
 // controls. Visor calls buildView() once per enable(), on the first click on the icon,
 // and shows the view below a header with a back button and the name of the module.
+import Clutter from 'gi://Clutter';
 import St from 'gi://St';
 
 import type { ModuleContext, RowProps, VisorModule } from '../visor/index.js';
@@ -59,7 +60,7 @@ export function dockExample(gettext: (s: string) => string): VisorModule {
       section.body.add_child(counter.actor);
 
       // Arrange kit elements with plain St containers; never set colours of your own.
-      const box = new St.BoxLayout({ vertical: true, x_expand: true });
+      const box = new St.BoxLayout({ orientation: Clutter.Orientation.VERTICAL, x_expand: true });
       box.add_child(section.actor);
       box.add_child(kit.empty(t('This view belongs to the example module.')));
       return box;
